@@ -36,7 +36,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(6, 20, 40, 0.45);
+  background: rgba(6, 20, 40, 0.60);
 }
 
 .lp-hero__inner {
@@ -57,7 +57,7 @@ body {
 }
 
 .lp-hero__title {
-  font-size: 46px;
+  font-size: 50px;
   margin: 0 0 10px;
   letter-spacing: .2px;
   font-family: "Montserrat", sans-serif;
@@ -192,6 +192,11 @@ body {
   border: 1px solid rgba(255, 255, 255, .08);
 }
 
+.lp-feature:hover {
+  background-color: rgba(255, 255, 255, .05);
+  cursor: pointer;
+}
+
 
 .lp-footer-text-feature {
   font-size: 20px;
@@ -253,7 +258,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.60);
   z-index: 1;
 }
 
@@ -278,7 +283,11 @@ body {
   }
 
   .lp-hero__title {
-    font-size: 38px;
+    font-size: 40px;
+  }
+
+  .lp-hero__subtitle {
+    font-size: 18px;
   }
 
   .lp-features {
@@ -292,4 +301,5 @@ body {
     align-items: center;
     text-align: center;
   }
+
 }
