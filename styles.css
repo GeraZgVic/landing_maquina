@@ -302,6 +302,10 @@ body {
     text-align: center;
   }
 
- 
+ .lp-logo__image {
+    width: 100px;
+    top: 15px;
+    left: 36px;
+  }
 
 }
