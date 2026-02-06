@@ -60,7 +60,6 @@ body {
   font-size: 50px;
   margin: 0 0 10px;
   letter-spacing: .2px;
-  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 700;
@@ -71,7 +70,6 @@ body {
   margin: 0;
   color: rgba(255, 255, 255, .9);
   max-width: 650px;
-  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
@@ -90,7 +88,6 @@ body {
 .lp-card__title {
   margin: 0 0 14px;
   font-size: 22px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .lp-form {
@@ -165,7 +162,6 @@ body {
 .lp-band__title {
   margin: 0 0 6px;
   font-size: 28px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .lp-band__title span {
@@ -175,7 +171,6 @@ body {
 .lp-band__subtitle {
   margin: 0 0 26px;
   color: rgba(255, 255, 255, .85);
-  font-family: "Roboto", sans-serif;
 }
 
 .lp-features {
@@ -201,7 +196,6 @@ body {
 .lp-footer-text-feature {
   font-size: 20px;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
 }
 
 .icon-1,
@@ -233,14 +227,12 @@ body {
 .lp-feature__title {
   margin: 0 0 6px;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .lp-feature__text {
   margin: 0;
   color: rgba(255, 255, 255, .85);
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
 }
 
 
