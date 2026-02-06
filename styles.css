@@ -14,7 +14,7 @@ body {
 }
 
 .lp-logo__image {
-  width: 150px;
+  width: 120px;
   height: auto;
   position: absolute;
   top: 20px;
@@ -301,5 +301,7 @@ body {
     align-items: center;
     text-align: center;
   }
+
+ 
 
 }
