@@ -13,6 +13,14 @@ body {
   line-height: 1.4;
 }
 
+.lp-logo__image {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  left: 22px;
+  z-index: 3;
+}
 
 
 .lp-hero {
