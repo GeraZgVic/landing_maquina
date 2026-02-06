@@ -70,7 +70,7 @@ body {
 }
 
 .lp-card {
-  background: rgba(10, 30, 55, 0.50);
+  background: rgba(10, 30, 55, 0.80);
   border-radius: 14px;
   padding: 20px;
   color: #fff;
@@ -259,6 +259,7 @@ body {
   .lp-card {
     max-width: 520px;
     width: 100%;
+    background: rgba(10, 30, 55, 0.50);
   }
 
   .lp-hero__title {
