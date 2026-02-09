@@ -302,10 +302,44 @@ body {
     text-align: center;
   }
 
- .lp-logo__image {
+  .lp-logo__image {
     width: 100px;
     top: 15px;
     left: 36px;
   }
 
+}
+
+
+
+/* Pag de agradecimiento */
+.lp-hero2 {
+  position: relative;
+  min-height: 100vh;
+  align-items: center;
+  padding: 90px 22px 40px;
+  overflow: hidden;
+}
+
+.contenido {
+  background-color: red;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  height: 100%;
+  color: white;
+}
+
+.lp-hero__title2 {
+  font-size: 40px;
+  margin: 0 0 10px;
+  letter-spacing: .2px;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center
 }
