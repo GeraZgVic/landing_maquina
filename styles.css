@@ -302,10 +302,100 @@ body {
     text-align: center;
   }
 
- .lp-logo__image {
+  .lp-logo__image {
     width: 100px;
     top: 15px;
     left: 36px;
   }
 
+}
+
+
+
+/* Pag de agradecimiento */
+.lp-hero2 {
+  position: relative;
+  min-height: 100vh;
+  align-items: center;
+  padding: 90px 22px 40px;
+  overflow: hidden;
+}
+
+.lp-hero__title2 {
+  font-size: 40px;
+  margin: 0 0 10px;
+  letter-spacing: .2px;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center
+}
+
+.contenido {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  height: 100%;
+  color: white;
+}
+
+.thankyou-box {
+  background: rgba(0, 25, 50, 0.75);
+  backdrop-filter: blur(6px);
+  padding: 48px 36px;
+  border-radius: 16px;
+  max-width: 520px;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.thankyou-icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: #ff8000;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thankyou-box h1 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.thankyou-main {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.thankyou-sub {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 24px;
+}
+
+
+.thankyou-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #ff8000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px !important;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.thankyou-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(247, 147, 30, 0.5);
 }
